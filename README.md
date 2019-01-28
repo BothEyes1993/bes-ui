@@ -24,6 +24,10 @@ Vue.use(BesUI)
 import { Component1 } from 'bes-ui'
 Vue.use(Component1)
 
+// 加载Component1和Component2
+import { Component1 , Component2} from 'bes-ui'
+Vue.use(Component1)
+Vue.use(Component2)
 ```
 
 ## License
