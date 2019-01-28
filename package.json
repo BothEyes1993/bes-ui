@@ -1,0 +1,27 @@
+
+{
+  "name": "bes-ui",
+  "version": "1.0.0",
+  "description": "a vue ui component templete",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/BothEyes1993/bes-ui.git"
+  },
+  "keywords": [
+  "bes-ui",
+  "templete",
+  "vue",
+  "vue-ui"
+  ],
+  "author": "BothEyes1993",
+  "license": "MIT",
+  "bugs": {
+  "url": "https://github.com/BothEyes1993/bes-ui/issues"
+  },
+  "homepage": "https://github.com/BothEyes1993/bes-ui#readme"
+  }
