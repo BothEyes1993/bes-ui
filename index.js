@@ -29,6 +29,5 @@ export const component = {
 //   install,
 //   Component1,
 //   Component2
-// };
-
-// module.exports.default = module.exports;
+// }
+// module.exports.default = module.exports
