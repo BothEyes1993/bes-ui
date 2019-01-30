@@ -13,21 +13,9 @@ function install (Vue) {
   })
 }
 
-// export const component = {
-//   install,
-//   Component1,
-//   Component2
-// }
-
-export default {
+module.exports = {
   install,
   Component1,
   Component2
 }
-
-// module.exports = {
-//   install,
-//   Component1,
-//   Component2
-// }
-// module.exports.default = module.exports
+module.exports.default = module.exports
