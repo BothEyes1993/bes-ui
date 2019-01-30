@@ -14,8 +14,8 @@ function install (Vue) {
 }
 
 module.exports = {
-  install,
-  Component1,
-  Component2
-}
-module.exports.default = module.exports
+    install,
+    Component1,
+    Component2
+};
+module.exports.default = module.exports;
