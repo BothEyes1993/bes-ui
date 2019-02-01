@@ -1,5 +1,5 @@
-import Component1 from './package/Component1'
-import Component2 from './package/Component2'
+import Component1 from './lib/Component1'
+import Component2 from './lib/Component2'
 
 
 const components = [
