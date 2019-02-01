@@ -1,5 +1,5 @@
 <<template>
-  <span>组件二</span>
+  <span class="Component2">组件二</span>
 </template>
 
 <script>
