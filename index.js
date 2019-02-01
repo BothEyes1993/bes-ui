@@ -13,9 +13,14 @@ function install (Vue) {
   })
 }
 
-module.exports = {
+export {
+  install,
+  Component1,
+  Component2
+}
+
+export default {
     install,
     Component1,
     Component2
-};
-module.exports.default = module.exports;
+}
