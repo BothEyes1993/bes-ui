@@ -3,7 +3,7 @@
 
  [![npm version](https://img.shields.io/npm/v/bes-ui.svg?style=flat-square)](https://www.npmjs.com/package/bes-ui)
  [![npm downloads](https://img.shields.io/npm/dm/bes-ui.svg?style=flat-square)](https://npm-stat.com/charts.html?package=bes-ui)
-[![npm build](https://travis-ci.org/xuliangzhan/xe-clipboard.svg?branch=master)](https://travis-ci.org/xuliangzhan/xe-clipboard)
+[![npm build](https://travis-ci.org/BothEyes1993/bes-ui.svg?branch=master)](https://img.shields.io/travis/BothEyes1993/bes-ui.svg)
 [![npm license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/BothEyes1993/bes-ui/blob/master/LICENSE)
 
 
