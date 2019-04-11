@@ -2,8 +2,11 @@
 一个基于vue封装的UI组件库，这只是一个模版，内置两个组件Component1，和Component2，支持统一加载和按需加载，可以按需分别加载对应组件的js和css，模块化的方式基本参考ElemenuUI，按需加载用babel-plugin-component。
 
  [![npm version](https://img.shields.io/npm/v/bes-ui.svg?style=flat-square)](https://www.npmjs.com/package/bes-ui)
+
+ [![npm downloads](https://img.shields.io/npm/dm/bes-ui.svg?style=flat-square)](https://npm-stat.com/charts.html?package=bes-ui)
+
 <!--[![npm build](https://travis-ci.org/xuliangzhan/xe-clipboard.svg?branch=master)](https://travis-ci.org/xuliangzhan/xe-clipboard)
-[![npm downloads](https://img.shields.io/npm/dm/xe-clipboard.svg?style=flat-square)](http://npm-stat.com/charts.html?package=xe-clipboard)
+
 [![npm license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/xuliangzhan/xe-clipboard/blob/master/LICENSE) -->
 
 
