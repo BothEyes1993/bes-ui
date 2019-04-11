@@ -1,29 +1,17 @@
-// https://eslint.org/docs/user-guide/configuring
-
 module.exports = {
-  parserOptions: {
-    ecmaVersion: 6,
-    sourceType: 'module',
-    ecmaFeatures: {
-      impliedStrict: true,
-      objectLiteralDuplicateProperties: false
-    }
-  },
+  root: true,
   env: {
-    amd: true,
-    browser: true,
     node: true
   },
-  plugins: [
-    'import'
-  ],
-  extends: [
-    'plugin:import/errors',
+  'extends': [
+    'plugin:vue/essential',
     'standard'
   ],
   rules: {
-    'array-bracket-spacing': ['error', 'never'],
-    'no-debugger': ['error'],
-    'keyword-spacing': ['error']
+    'no-console': 'off',
+    'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
+  },
+  parserOptions: {
+    parser: 'babel-eslint'
   }
 }

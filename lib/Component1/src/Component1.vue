@@ -1,4 +1,4 @@
-<<template>
+<template>
   <span class="Component1">组件一</span>
 </template>
 
@@ -10,12 +10,10 @@ export default {
     }
   },
   methods: {
-    
+
   },
-  created() {
+  created () {
     console.info('Component1----created----')
-  },
+  }
 }
 </script>
-
-

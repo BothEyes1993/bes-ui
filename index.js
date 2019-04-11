@@ -1,9 +1,8 @@
 import Component1 from './lib/Component1'
 import Component2 from './lib/Component2'
 
-
 const components = [
-  Component1,Component2
+  Component1, Component2
 ]
 
 function install (Vue) {
@@ -20,7 +19,7 @@ export {
 }
 
 export default {
-    install,
-    Component1,
-    Component2
+  install,
+  Component1,
+  Component2
 }
