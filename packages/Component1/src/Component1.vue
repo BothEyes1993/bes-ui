@@ -1,5 +1,5 @@
 <template>
-  <span class="Component1">组件一</span>
+  <span class="Component1">组件Component1</span>
 </template>
 
 <script>
@@ -17,3 +17,4 @@ export default {
   }
 }
 </script>
+<style src="../../../static/Component1.css"></style>

@@ -1,5 +1,5 @@
-import Component1 from './lib/Component1'
-import Component2 from './lib/Component2'
+import Component1 from './Component1'
+import Component2 from './Component2'
 
 const components = [
   Component1, Component2
@@ -10,12 +10,6 @@ function install (Vue) {
     console.info('install----all----')
     Vue.component(component.name, component)
   })
-}
-
-export {
-  install,
-  Component1,
-  Component2
 }
 
 export default {
