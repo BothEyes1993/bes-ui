@@ -5,7 +5,7 @@ import App from './App.vue'
 // import BesUI from '../packages'
 // Vue.use(BesUI)
 
-import { Component1 } from '../packages/Component1'
+import { Component1 } from '../packages'
 Vue.use(Component1)
 
 Vue.config.productionTip = false

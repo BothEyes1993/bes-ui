@@ -11,7 +11,11 @@ function install (Vue) {
     Vue.component(component.name, component)
   })
 }
-
+export {
+  install,
+  Component1,
+  Component2
+}
 export default {
   install,
   Component1,
