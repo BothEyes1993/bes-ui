@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "vue": "^2.6.10",
-    "bes-ui": "^1.2.5"
+    "bes-ui": "^1.2.7"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
