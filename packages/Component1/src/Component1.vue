@@ -1,10 +1,10 @@
 <template>
-  <span class="Component1">组件Component1</span>
+  <span class="component1">组件component1</span>
 </template>
 
 <script>
 export default {
-  name: 'Component1',
+  name: 'component1',
   data () {
     return {
     }
@@ -13,8 +13,9 @@ export default {
 
   },
   created () {
-    console.info('Component1----created----')
+    console.info('component1----created----')
   }
 }
 </script>
-<style src="../../../static/Component1.css"></style>
+<style src="../../../static/base.css"></style>
+<style src="../../../static/component1.css"></style>

@@ -1,8 +1,8 @@
-import Component1 from './Component1'
-import Component2 from './Component2'
+import component1 from './component1'
+import component2 from './component2'
 
 const components = [
-  Component1, Component2
+  component1, component2
 ]
 
 function install (Vue) {
@@ -13,11 +13,11 @@ function install (Vue) {
 }
 export {
   install,
-  Component1,
-  Component2
+  component1,
+  component2
 }
 export default {
   install,
-  Component1,
-  Component2
+  component1,
+  component2
 }

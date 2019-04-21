@@ -1,8 +1,8 @@
-import Component1 from './src/Component1.vue'
+import component1 from './src/component1.vue'
 
-Component1.install = function (Vue) {
-  console.info('Component1----install----')
-  Vue.component(Component1.name, Component1)
+component1.install = function (Vue) {
+  console.info('component1----install----')
+  Vue.component(component1.name, component1)
 }
 
-export default Component1
+export default component1
