@@ -15,7 +15,7 @@
 npm install bes-ui --save
 ```
 
-在 [unpkg](https://unpkg.com/vue-element-extends/) 上获取
+在 [unpkg](https://unpkg.com/bes-ui/) 上获取
 
 ```HTML
 <!-- 引入样式 -->
