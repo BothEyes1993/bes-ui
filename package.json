@@ -1,6 +1,6 @@
 {
   "name": "bes-ui",
-  "version": "1.2.9",
+  "version": "1.3.0",
   "description": "a vue ui component templete",
   "scripts": {
     "test": "eslint lib/index.js",
@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "vue": "^2.6.10",
-    "bes-ui": "^1.2.9"
+    "bes-ui": "^1.3.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
