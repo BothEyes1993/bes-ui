@@ -1,6 +1,6 @@
 {
   "name": "bes-ui",
-  "version": "1.2.7",
+  "version": "1.2.8",
   "description": "a vue ui component templete",
   "scripts": {
     "test": "eslint lib/index.js",
