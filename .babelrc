@@ -1,0 +1,10 @@
+{
+  "plugins": [
+    ["component", 
+      {
+         "libraryName": "bes-ui",
+         "styleLibraryName": "~node_modules/bes-ui/static"
+      }
+    ]
+  ]
+}
