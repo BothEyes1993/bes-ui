@@ -2,12 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 
 // // 统一加载
-import BesUI from 'bes-ui'
-Vue.use(BesUI)
+// import BesUI from 'bes-ui'
+// Vue.use(BesUI)
 
-// 只加载Component1
-// import { component1 } from 'bes-ui'
-// Vue.use(component1)
+// 只加载component2
+import { component2 } from 'bes-ui'
+Vue.use(component2)
 
 Vue.config.productionTip = false
 
