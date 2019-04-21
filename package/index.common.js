@@ -1,14 +1,5 @@
-(function webpackUniversalModuleDefinition(root, factory) {
-	if(typeof exports === 'object' && typeof module === 'object')
-		module.exports = factory();
-	else if(typeof define === 'function' && define.amd)
-		define([], factory);
-	else if(typeof exports === 'object')
-		exports["index"] = factory();
-	else
-		root["index"] = factory();
-})((typeof self !== 'undefined' ? self : this), function() {
-return /******/ (function(modules) { // webpackBootstrap
+module.exports =
+/******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -321,14 +312,14 @@ if (typeof window !== 'undefined') {
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.function.name.js
 var es6_function_name = __webpack_require__("7f7f");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d48f50ce-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/component1/src/component1.vue?vue&type=template&id=61596446&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d48f50ce-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./lib/component1/src/component1.vue?vue&type=template&id=f93d364c&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('span',{staticClass:"component1"},[_vm._v("组件component1")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./packages/component1/src/component1.vue?vue&type=template&id=61596446&
+// CONCATENATED MODULE: ./lib/component1/src/component1.vue?vue&type=template&id=f93d364c&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/component1/src/component1.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./lib/component1/src/component1.vue?vue&type=script&lang=js&
 //
 //
 //
@@ -343,7 +334,7 @@ var staticRenderFns = []
     console.info('component1----created----');
   }
 });
-// CONCATENATED MODULE: ./packages/component1/src/component1.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./lib/component1/src/component1.vue?vue&type=script&lang=js&
  /* harmony default export */ var src_component1vue_type_script_lang_js_ = (component1vue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./static/base.css?vue&type=style&index=0&lang=css&
 var basevue_type_style_index_0_lang_css_ = __webpack_require__("60c5");
@@ -446,7 +437,7 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./packages/component1/src/component1.vue
+// CONCATENATED MODULE: ./lib/component1/src/component1.vue
 
 
 
@@ -468,7 +459,7 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var component1 = (component.exports);
-// CONCATENATED MODULE: ./packages/component1/index.js
+// CONCATENATED MODULE: ./lib/component1/index.js
 
 
 
@@ -477,15 +468,15 @@ component1.install = function (Vue) {
   Vue.component(component1.name, component1);
 };
 
-/* harmony default export */ var packages_component1 = (component1);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d48f50ce-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/component2/src/component2.vue?vue&type=template&id=4fcaccb2&
-var component2vue_type_template_id_4fcaccb2_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('span',{staticClass:"component2"},[_vm._v("组件component2")])}
-var component2vue_type_template_id_4fcaccb2_staticRenderFns = []
+/* harmony default export */ var lib_component1 = (component1);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"d48f50ce-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./lib/component2/src/component2.vue?vue&type=template&id=0bbacb8a&
+var component2vue_type_template_id_0bbacb8a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('span',{staticClass:"component2"},[_vm._v("组件component2")])}
+var component2vue_type_template_id_0bbacb8a_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./packages/component2/src/component2.vue?vue&type=template&id=4fcaccb2&
+// CONCATENATED MODULE: ./lib/component2/src/component2.vue?vue&type=template&id=0bbacb8a&
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./packages/component2/src/component2.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./lib/component2/src/component2.vue?vue&type=script&lang=js&
 //
 //
 //
@@ -500,12 +491,12 @@ var component2vue_type_template_id_4fcaccb2_staticRenderFns = []
     console.info('component2----created----');
   }
 });
-// CONCATENATED MODULE: ./packages/component2/src/component2.vue?vue&type=script&lang=js&
+// CONCATENATED MODULE: ./lib/component2/src/component2.vue?vue&type=script&lang=js&
  /* harmony default export */ var src_component2vue_type_script_lang_js_ = (component2vue_type_script_lang_js_); 
 // EXTERNAL MODULE: ./static/component2.css?vue&type=style&index=1&lang=css&
 var component2vue_type_style_index_1_lang_css_ = __webpack_require__("f278");
 
-// CONCATENATED MODULE: ./packages/component2/src/component2.vue
+// CONCATENATED MODULE: ./lib/component2/src/component2.vue
 
 
 
@@ -517,8 +508,8 @@ var component2vue_type_style_index_1_lang_css_ = __webpack_require__("f278");
 
 var component2_component = normalizeComponent(
   src_component2vue_type_script_lang_js_,
-  component2vue_type_template_id_4fcaccb2_render,
-  component2vue_type_template_id_4fcaccb2_staticRenderFns,
+  component2vue_type_template_id_0bbacb8a_render,
+  component2vue_type_template_id_0bbacb8a_staticRenderFns,
   false,
   null,
   null,
@@ -527,7 +518,7 @@ var component2_component = normalizeComponent(
 )
 
 /* harmony default export */ var component2 = (component2_component.exports);
-// CONCATENATED MODULE: ./packages/component2/index.js
+// CONCATENATED MODULE: ./lib/component2/index.js
 
 
 
@@ -536,12 +527,12 @@ component2.install = function (Vue) {
   Vue.component(component2.name, component2);
 };
 
-/* harmony default export */ var packages_component2 = (component2);
-// CONCATENATED MODULE: ./packages/index.js
+/* harmony default export */ var lib_component2 = (component2);
+// CONCATENATED MODULE: ./lib/index.js
 
 
 
-var components = [packages_component1, packages_component2];
+var components = [lib_component1, lib_component2];
 
 function install(Vue) {
   components.map(function (component) {
@@ -551,22 +542,21 @@ function install(Vue) {
 }
 
 
-/* harmony default export */ var packages_0 = ({
+/* harmony default export */ var lib = ({
   install: install,
-  component1: packages_component1,
-  component2: packages_component2
+  component1: lib_component1,
+  component2: lib_component2
 });
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 /* concated harmony reexport install */__webpack_require__.d(__webpack_exports__, "install", function() { return install; });
-/* concated harmony reexport component1 */__webpack_require__.d(__webpack_exports__, "component1", function() { return packages_component1; });
-/* concated harmony reexport component2 */__webpack_require__.d(__webpack_exports__, "component2", function() { return packages_component2; });
+/* concated harmony reexport component1 */__webpack_require__.d(__webpack_exports__, "component1", function() { return lib_component1; });
+/* concated harmony reexport component2 */__webpack_require__.d(__webpack_exports__, "component2", function() { return lib_component2; });
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (packages_0);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (lib);
 
 
 
 /***/ })
 
 /******/ });
-});
